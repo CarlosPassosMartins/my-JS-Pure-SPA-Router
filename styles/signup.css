@@ -1,0 +1,23 @@
+/* signup.css */
+.signup-card {
+    max-width: 450px; /* Um pouco mais largo para acomodar o nome */
+}
+
+.signup-card .input-group input:focus {
+    outline: none;
+    border-color: #27ae60; /* Foco em verde para diferenciar do login */
+}
+
+.signup-btn {
+    width: 100%;
+    background-color: #27ae60;
+    color: white;
+}
+
+.signup-btn:hover {
+    background-color: #2ecc71;
+}
+
+.link-green a {
+    color: #27ae60;
+}

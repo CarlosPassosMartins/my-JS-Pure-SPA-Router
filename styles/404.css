@@ -1,0 +1,42 @@
+/* 404.css */
+.error-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+}
+
+.error-container h1 {
+    font-size: 120px;
+    color: #e74c3c;
+    margin-bottom: 10px;
+    font-weight: 900;
+}
+
+.error-container h2 {
+    font-size: 32px;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.error-container p {
+    font-size: 16px;
+    color: #7f8c8d;
+    margin-bottom: 40px;
+    max-width: 500px;
+    line-height: 1.5;
+}
+
+.error-btn {
+    background-color: #3498db;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 50px;
+}
+
+.error-btn:hover {
+    background-color: #2980b9;
+}
